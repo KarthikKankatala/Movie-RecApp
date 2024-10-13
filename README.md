@@ -14,7 +14,15 @@ User Feedback:
 
 Like: If you like a movie, it will influence future recommendations to include similar movies.
 Dislike: If you dislike a movie, similar movies will be excluded from future recommendations.
+
 Dropdown Lists:
 
 Liked Movies: View all movies you have liked in a dropdown list.
 Disliked Movies: View all movies you have disliked in a separate dropdown list.
+
+Usage:
+
+Launch the application.
+Browse through the recommended movies.
+Use the like and dislike buttons to provide feedback.
+Check your liked and disliked movies in the respective dropdown lists.
