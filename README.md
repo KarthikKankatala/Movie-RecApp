@@ -1,30 +1,117 @@
-# Movie Recommendation System Using Feedback Mechanism
+# 🎬 Movie Recommendation System Using Feedback Mechanism
 
-Welcome to the Movie Recommendation System! This project is designed to provide personalized movie recommendations using a feedback mechanism. Users can like or dislike movies, which influences future recommendations. Additionally, users can view their liked and disliked movies in separate dropdown lists.
+Welcome to the **Movie Recommendation System**! This project delivers personalized movie recommendations using an interactive feedback mechanism. Users can 👍 like or 👎 dislike movies to refine future suggestions.
 
-### Features:
+---
 
-- Personalized Recommendations: Receive movie recommendations tailored to your preferences .
-- Feedback Mechanism: Like or dislike movies to refine future recommendations.
-- Liked and Disliked Movies Lists: View your liked and disliked movies in separate dropdown lists.
+## 📋 Table of Contents
 
-### How It Works:
+- [✨ Features](#-features)
+- [🚀 Demo](#-demo)
+- [⚡ Getting Started](#-getting-started)
+- [📊 Data](#-data)
+- [🕹️ Usage](#-usage)
+- [🗂️ Project Structure](#-project-structure)
+- [🤝 Contributing](#-contributing)
+- [🪪 License](#-license)
 
-Initial Recommendations: The system provides an initial set of movie recommendations based on general popularity or a predefined algorithm.
+---
 
-### User Feedback:
+## ✨ Features
 
-- Like: If you like a movie, it will influence future recommendations to include similar movies.
-- Dislike: If you dislike a movie, similar movies will be excluded from future recommendations.
+- 🎯 **Personalized Recommendations:** Tailored movie suggestions based on your feedback.
+- 🔄 **Feedback Mechanism:** Like or dislike movies to improve recommendations.
+- 📜 **Liked/Disliked Lists:** View your liked and disliked movies separately.
+- 🐳 **Docker & Compose Support:** Easy deployment with Docker.
+- 📒 **Data Analysis Notebook:** Explore the Jupyter Notebook for model insight.
 
-### Dropdown Lists:
+---
 
-- Liked Movies: View all movies you have liked in a dropdown list.
-- Disliked Movies: View all movies you have disliked in a separate dropdown list.
+## 🚀 Demo
 
-### Usage:
+![App Screenshot](Images/App_Interface.png)
 
-- Launch the application.
-- Browse through the recommended movies.
-- Use the like and dislike buttons to provide feedback.
-- Check your liked and disliked movies in the respective dropdown lists.
+_Explore how the recommendation system looks and works!_
+
+---
+
+## ⚡ Getting Started
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/KarthikKankatala/Movie-RecApp.git
+cd Movie-RecApp
+```
+
+### 2️⃣ Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3️⃣ Run with Docker (Recommended 🐳)
+
+```bash
+docker compose up
+```
+
+### 4️⃣ Or Run Manually
+
+```bash
+python app.py
+```
+
+### 5️⃣ Explore the Data Notebook
+
+Open `Projectid_74_Movie_Recommendation.ipynb` in Jupyter for data exploration and model training.
+
+---
+
+## 📊 Data
+
+- `data.csv` and `movies.csv` — Contain movie and ratings data (required for recommendations).
+- _Ensure these files are present in the project root._
+
+---
+
+## 🕹️ Usage
+
+1. 🚦 Launch the application.
+2. 🎥 Browse through the recommended movies.
+3. 👍 Like or 👎 dislike movies to refine your profile.
+4. 📂 Check your liked/disliked lists from the dropdown menus.
+
+---
+
+## 🗂️ Project Structure
+
+```
+.
+├── app.py                     # Main backend application
+├── create.py                  # Database/setup utility script
+├── requirements.txt           # Python dependencies
+├── Dockerfile, compose.yaml   # Docker configuration files
+├── Projectid_74_Movie_Recommendation.ipynb  # Data analysis notebook
+├── static/                    # Static assets (images, CSS, JS)
+├── templates/                 # HTML templates
+├── Images/                    # App screenshots and images
+├── data.csv, movies.csv       # Movie datasets
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please open issues or submit pull requests.
+Feel free to add new features, fix bugs, or improve documentation. 🌱
+
+---
+
+## 🪪 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+_See the full list of project files in the [repository](https://github.com/KarthikKankatala/Movie-RecApp/tree/main/)._
