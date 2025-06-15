@@ -1,4 +1,4 @@
-# 🎬 Movie Recommendation System Using Feedback Mechanism
+🎬 Movie Recommendation System Using Feedback Mechanism
 
 Welcome to the **Movie Recommendation System**! This project delivers personalized movie recommendations using an interactive feedback mechanism. Users can 👍 like or 👎 dislike movies to refine future suggestions.
 
@@ -29,8 +29,12 @@ Welcome to the **Movie Recommendation System**! This project delivers personaliz
 
 ## 🚀 Demo
 
-![App Screenshot](Images/App_Interface.png)
-
+![App_Interface](Images/App_Interface.png)
+![Login](Images/Login.png)
+![Register](Images/Register.png)
+![Home](Images/Home.png)
+![Recommendations](Images/Recommendations.png)
+![Like_And_Dislike](Images/Like_And_Dislike.png)
 _Explore how the recommendation system looks and works!_
 
 ---
